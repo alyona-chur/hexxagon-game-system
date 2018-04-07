@@ -29,6 +29,6 @@ Agent. I can't guarantee that it's working.
 
 No agent+player and statistic only type.
 
-Many exception when you turn clients/via/server on and of in a wrong order.
+Many exception when you turn clients/vis/server on and of in a wrong order.
 ***
 **This project will not be continued.**

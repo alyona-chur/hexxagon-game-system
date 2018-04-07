@@ -23,11 +23,11 @@ Empty C# agent. Can be used as a template.
 
 **Agent_Raph v1.0**
 
-Agent. I can't guarantee that it's working.
+Agent created by Raphael. I can't guarantee that it's working.
 ***
 **Issues:**
 
-No agent+player and statistic only type.
+No "agent+player" and "statistic only" type.
 
 Many exception when you turn clients/vis/server on and of in a wrong order.
 ***

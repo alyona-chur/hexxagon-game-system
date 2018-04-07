@@ -1,14 +1,12 @@
 # hexxagon-game-system
 Hexxagon Game system for testing game agents.
-
-
-
+---
+---
 Better start running with server, then agents, then visualizer.
-
+---
 ConstantsLibrary references need to be updated.
-
-
-
+---
+---
 -ConstantsLibrary- Library with shared constants. Using C#.
 
 -HexxagonEnvironment- Game environment. Console Application. Using C#, TCPClient.

@@ -9,31 +9,21 @@ ConstantsLibrary references need to be updated.
 
 
 
--ConstantsLibrary
+-ConstantsLibrary- Library with shared constants. Using C#.
 
-Library with shared constants. Using C#.
+-HexxagonEnvironment- Game environment. Console Application. Using C#, TCPClient.
 
--HexxagonEnvironment 
+-HexxagonVisualizer- Application for visualization. Using C#, WPF.
 
-Game environment. Console Application. Using C#, TCPClient.
+-Agent_Csharp- Empty C# agent. Can be used as a template.
 
--HexxagonVisualizer
-
-Application for visualization. Using C#, WPF.
-
--Agent_Csharp
-
-Empty C# agent. Can be used as a template.
-
--Agent_Raph v1.0
-
-Agent. I can't guarantee that it's working.
+-Agent_Raph v1.0- Agent. I can't guarantee that it's working.
 
 
 
 Issues:
 
-No agent+playr and statistic only type.
+No agent+player and statistic only type.
 
 Many exception when you turn clients/via/server on and of in a wrong order.
 

@@ -1,0 +1,31 @@
+﻿<Window x:Class="HexxagonVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HexxagonVisualizer"
+        mc:Ignorable="d"
+        Title="HEXXAGON" Height="650" Width="420" Icon="icon.ico"
+      Background="#F5F5DC">
+    <Border  Margin="3">
+        <Grid ShowGridLines="False" Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="3.5*"></RowDefinition>
+                <RowDefinition Height="0.5*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Name="quest1" Content="Choose game type:" Grid.Row="0" Margin="5, 20, 0, 0" FontSize="17"></Label>
+
+            <RadioButton GroupName="GameType" Name="TwoAgents" Content="Two agents" FontSize="15" Grid.Row="0" Margin="15, 50, 0, 0"></RadioButton>
+            <RadioButton GroupName="GameType" Name="AgentUser" Content="Agent and User" FontSize="15" Grid.Row="0" Margin="15, 70, 0, 0"></RadioButton>
+
+            <Label Name="Player1Label"  Content="Player 1: " Margin="10" FontSize="20" ></Label>
+            <Label Name="Player2Label"  Content="Player 2: " Margin="190, 5, 5, 10" FontSize="20" ></Label>
+            
+            <Button Name="NextButton" Click="NexttButton_Click" FontSize="15" Background="#FFA000" Height="30" Width="200" Margin="3" Grid.Row="2" HorizontalAlignment="Stretch" ></Button>
+        </Grid>
+    </Border>
+</Window>
+
+<!-- BorderBrush="#007FFF" #FDEAA8  -->
